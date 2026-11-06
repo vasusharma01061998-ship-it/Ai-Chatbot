@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html><head><title>Login</title>
+<style>
+body{font-family:Arial;background:#111;color:white;display:flex;justify-content:center;align-items:center;height:100vh}
+.box{background:#222;padding:30px;border-radius:15px;width:300px;text-align:center}
+input{width:90%;padding:10px;margin:8px;border-radius:8px;border:none}
+button{width:95%;padding:10px;background:#25D366;border:none;border-radius:8px;font-weight:bold;cursor:pointer}
+h2{margin:5px}
+</style></head>
+<body>
+<div class="box">
+<h2>🤖 Mera AI Chatbot</h2>
+<p>Login / Signup</p>
+<form action="/login" method="post">
+<input name="username" placeholder="Username" required>
+<input name="password" type="password" placeholder="Password" required>
+<button>LOGIN</button>
+</form>
+<p>--- Naya ho? ---</p>
+<form action="/signup" method="post">
+<input name="username" placeholder="Naya Username" required>
+<input name="password" type="password" placeholder="Naya Password" required>
+<button style="background:#0088ff;color:white">SIGNUP KARO</button>
+</form>
+</div></body></html>
